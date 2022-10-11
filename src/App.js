@@ -1,10 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello, World! 🚀</h1>
+      <h1 className="text-center ubuntu my-4">
+        Rick & Morty <span className="text-primary">API</span>
+      </h1>
     </div>
   );
 }
